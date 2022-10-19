@@ -9,6 +9,7 @@ html {
 
 .body {
     background-color: #cfe5e2;
+    background-image: url("../images/dollars.jpg");
     text-align: center;
     margin: 0;
     color: #292929;
@@ -17,4 +18,5 @@ html {
 .header {
     color: #005757;
     margin-bottom: 30px;
+    margin-top: 0px;
 }

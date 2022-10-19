@@ -4,21 +4,24 @@
     display: inline-block;
     text-align: right;
 }
+
 .form__field {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 10px;
     width: 100%;
     max-width: 210px;
     border-radius: 5px;
     margin: 0px 5px 20px 0px;
 }
+
 .form__field:required {
     border-color: #777;
 }
+
 .form__button {
     text-align: center;
     width: 33.3333333333%;
-    max-width: 150px;
+    max-width: 160px;
     border: none;
     background-color: #008080;
     color: white;
@@ -27,14 +30,17 @@
     margin: 15px auto;
     display: block;
 }
+
 .form__button:hover {
     background-color: #005757;
 }
+
 .form__fieldset {
-    border: 2px solid #aac3bd;
+    border: 3px solid #aac3bd;
     padding: 20px;
     border-radius: 5px;
 }
+
 .form__legend {
     background-color: #008080;
     color: white;
@@ -42,10 +48,11 @@
     padding: 10px;
     margin-bottom: 15px;
 }
+
 .result {
     text-align: center;
-    margin: 15px auto;
+    margin: 20px auto;
     font-size: 24px;
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
 }

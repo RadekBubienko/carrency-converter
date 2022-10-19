@@ -32,7 +32,7 @@
                   <span class="form__labelText">
                      Mam*:
                   </span>
-                  <input name="amount" class="form__field js-amount" type="number" min="1" step="any" placeholder="wprowadź kwotę w PLN" required>
+                  <input name="amount" class="form__field js-amount" type="number" min="1" step="any" placeholder="kwota w PLN" required>
                </label>
            
            
@@ -42,9 +42,9 @@
                   </span>
                   <select name="currency" class="form__field js-currency" type="select" required>
                      <option selected>wybierz walutę</option>
-                     <option value="4.9550">EUR (euro)</option>
-                     <option value="5.0050">USD (dolar amerykański)</option>
-                     <option value="5.7550">GBP (funt brytyjski)</option>
+                     <option value="EUR">Euro</option>
+                     <option value="USD">Dolar amerykański</option>
+                     <option value="GBP">Funt brytyjski</option>
                   </select>
                </label>
            
@@ -53,7 +53,7 @@
             <button class="form__button">Przelicz</button>
          </p>
       </form>
-      <p class="result">Otrzymasz: <strong class="js-result">N/A</strong></p>
+      <p class="result"><span class="js-result"></span></p>
    </main>
 </body>
 
