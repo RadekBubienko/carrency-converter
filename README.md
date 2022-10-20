@@ -1,11 +1,11 @@
-# Carrency Converter
+# Currency Converter
 created by Radek Bubienko
 
 ![Screenshot](images/CarencyConverter.jpg)
 
 
 ## Demo
-https://radekbubienko.github.io/carrency-converter/
+https://radekbubienko.github.io/currency-converter/
 
 ## Description
 This Site created while learning programming at the **YouCode** school.
