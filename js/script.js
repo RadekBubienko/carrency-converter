@@ -30,8 +30,7 @@
 
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency");
-        const resultElement = document.querySelector(".js-result");
-
+       
         const amount = +amountElement.value;
         const currency = currencyElement.value;
 
@@ -45,8 +44,9 @@
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
+
+        welcome();
     }
 
     init();
-    welcome();
 }
